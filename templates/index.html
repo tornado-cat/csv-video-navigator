@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Video Viewer (CSV URL)</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <video id="player" playsinline webkit-playsinline preload="metadata"></video>
+
+    <div class="overlay">
+      <div id="title"></div>
+      <!-- <div class="hint">❖ <b>A</b> = Önceki &nbsp; • &nbsp; <b>D</b> = Sonraki &nbsp; • &nbsp; (Boşluk) = Oynat/Durdur</div> -->
+    </div>
+  </div>
+
+  <script src="/static/main.js"></script>
+</body>
+</html>

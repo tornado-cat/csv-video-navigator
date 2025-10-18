@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #5c5b5b;        /* <-- siyah yerine beyaz */
+  color: #111;                /* metin koyu */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif;
+}
+
+.wrap { /* ortalam yeri*/
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+video {
+  width: 100vw;               /* tam genişlik */
+  height: 100vh;              /* tam yükseklik */
+  object-fit: contain;        /* oranı koru; boşluk olursa kenarlar görünür */
+  background: #f2f7f8;        /* <-- kenar boşluk rengi beyaz olur */
+  outline: none;
+}
+
+.overlay {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  pointer-events: none;
+}
+
+#title, .hint {
+  background: rgba(94, 92, 92, 0.8);  
+  color: #111;
+  padding: 6px 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+}
+
+#title { font-weight: 600; margin-bottom: 6px; }

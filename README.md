@@ -8,7 +8,6 @@ Videoların kaynakları bir `.csv` dosyasında URL olarak tanımlanır. Oynatma 
 - **A** tuşu → önceki video  
 - **D** tuşu → sonraki video  
 - **Boşluk (Space)** → oynat / durdur  
-- **F** tuşu → tam ekran  
 - Minimal arayüz (oynatma barı yok)  
 - Arka plan rengi gri-beyaz (göz yormayan ton)  
 - Flask tabanlı backend, tamamen yerel veya sunucuya deploy edilebilir  
